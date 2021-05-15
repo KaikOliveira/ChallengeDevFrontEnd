@@ -1,9 +1,12 @@
 import React from 'react';
+import { HomePage } from './pages/HomePage/index';
+import Reset from './styles/reset';
 
-function App() {
-  return (
-    <h1>Hello World ReactJs TypeScript</h1>
-  );
-}
+const App: React.FC = () => (
+  <>
+    <HomePage />
+    <Reset />
+  </>
+);
 
 export default App;
