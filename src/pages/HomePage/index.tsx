@@ -5,7 +5,7 @@ import { Wrapper } from './styles';
 
 export const HomePage: React.FC = () => (
   <Wrapper>
-    <h1>asfdsa</h1>
+    <h1>Home Page</h1>
 
     <img src={imgBackground} alt="imgBackground" />
   </Wrapper>
